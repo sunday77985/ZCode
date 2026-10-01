@@ -53,7 +53,7 @@ function App() {
           <div className="brand-mark"><span>z</span></div>
           <div>
             <strong>ZCode</strong>
-            <small>LAUNCHPAD</small>
+            <small>PRIVACY PROTOCOL</small>
           </div>
         </div>
         <div className="network-pill"><i /> SOLANA 主网 <ChevronDown size={14} /></div>
