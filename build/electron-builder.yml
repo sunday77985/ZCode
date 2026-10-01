@@ -1,0 +1,27 @@
+appId: org.zcode.launchpad
+productName: ZCode
+artifactName: ZCode-Setup-${version}.${ext}
+directories:
+  output: release
+  buildResources: build
+files:
+  - dist/**/*
+  - electron/**/*
+  - package.json
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  artifactName: ZCode-Setup-${version}-win-x64.${ext}
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: ZCode
+  installerLanguages:
+    - zh_CN
+    - en_US
+  language: 2052
+  perMachine: false
