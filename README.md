@@ -1,4 +1,4 @@
-# ZCode Launchpad
+# ZCode
 
 ![ZCode 项目封面](public/og-cover.svg)
 
